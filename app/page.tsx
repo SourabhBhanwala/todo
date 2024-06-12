@@ -29,7 +29,7 @@ const columns = [
   { name: "STATUS", uid: "status" },
   { name: "ACTIONS", uid: "actions" },
 ];
-const URL = "http://localhost:3000";
+const URL = "https://todo-5v18scmde-sourabhbhanwalas-projects.vercel.app";
 
 export default function Home() {
   const [todos, setTodos] = useState<Todo[]>();
